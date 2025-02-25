@@ -20,6 +20,6 @@ setup(
     packages=find_packages(exclude=["tests", "docs"]),
     install_requires=[
         "openai",
-        "komotiv_package_testing @ git+https://github.com/komotiv/package-testing2@main",
+        "komotiv_package_testing @ git+https://github.com/komotiv/package-testing@main",
     ],
 )
