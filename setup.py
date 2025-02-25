@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="komotiv_package_testing",
+    name="komotiv_package_testing2",
     version="0.1.0",
     author="Komotiv Inc.",
     author_email="contact@komotiv.com",
@@ -20,6 +20,6 @@ setup(
     packages=find_packages(exclude=["tests", "docs"]),
     install_requires=[
         "openai",
-        "git+https://github.com/komotiv/package-testing2@main",
+        "komotiv_package_testing @ git+https://github.com/komotiv/package-testing2@main",
     ],
 )
